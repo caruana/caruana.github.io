@@ -1,38 +1,33 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Brandon Caruana
 email: brandon@caruana.me
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # Writer Theme is a responsive template
+ My macro perspective on technology, cryptographic value creation, AI, cultural trends and the creator economy.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://caruana.me" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: caruanab
-github_username:  caruana
+url: "https://caruana.me" # the base hostname & protocol for your site
+enable_retina: true
+permalink: :title
+nav_list:
+  Home : ['Home', '/', 'fa-home']
+  Thoughts : ['Thoughts', '/thoughts/', 'fa-blog']
+  Reading : ['Reading', '/reading', 'fa-book-reader']
+  Tools : ['Tools', '/tools', 'fa-tools']
+  About : ['About', '/about', 'fa-user']
+  ReachOut : ['Reach Out', '/contact', 'fa-id-card-alt']
+single_footer: '<p>Brandon Caruana &copy; 2021 </p>'
+footer_links:
+    About: ['About', '/about']
+    Writer: ['Writer 2016', '/about']
+
+
+# Build settings
+# markdown: kramdown
+plugins:
+  - jekyll-feed
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
