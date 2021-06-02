@@ -1,50 +1,61 @@
-# Site settings
-title: Brandon Caruana
-email: brandon@caruana.me
-description: > # Writer Theme is a responsive template
- My macro perspective on technology, cryptographic value creation, AI, cultural trends and the creator economy.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://caruana.me" # the base hostname & protocol for your site
-enable_retina: true
-permalink: :title
-nav_list:
-  Home : ['Home', '/', 'fa-home']
-  Thoughts : ['Thoughts', '/thoughts/', 'fa-blog']
-  Reading : ['Reading', '/reading', 'fa-book-reader']
-  Tools : ['Tools', '/tools', 'fa-tools']
-  About : ['About', '/about', 'fa-user']
-  ReachOut : ['Reach Out', '/contact', 'fa-id-card-alt']
-single_footer: '<p>Brandon Caruana &copy; 2021 </p>'
-footer_links:
-    About: ['About', '/about']
-    Writer: ['Writer 2016', '/about']
+# Site
+name: "Brandon Caruana"
+title: "caruana.me"
+description: "A macro perspective on technology, cryptographic value creation, AI, cultural trends and the creator economy"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: 
+google_analytics: 'UA-113621942-1'
+mailchimp-list: 'https://caruana.us6.list-manage.com/subscribe/post?u=35c7ffdd757b70c1f07ca843d&amp;id=4a7dcd00d9'
+include: ["_pages"]
+permalink: /:title/
 
-
-# Build settings
-# markdown: kramdown
+# Authors
+authors:
+  bc:
+    name: Brandon Caruana
+    display_name: Brandon
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: brandon@caruana.me
+    web: https://caruana.me
+    twitter: https://twitter.com/caruanab
+    description: "."
+# Plugins
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
 
-# Build settings
-theme: minima
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
