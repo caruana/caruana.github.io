@@ -2,7 +2,7 @@
 layout: post
 title:  "Legacy vs Innovation ... An eternal evolution"
 author: brandon
-featured: false
+featured: true
 categories: [ Learning, Cayman ]
 image: assets/images/legacy-vs-innovation.jpg
 ---

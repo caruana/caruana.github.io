@@ -2,7 +2,7 @@
 layout: post
 title:  "Thoughts on Continual Learning Opportunities Through Open Online Courses And Their Potential for the Cayman Labour Force"
 author: brandon
-featured: true
+featured: false
 categories: [ Learning, Cayman ]
 image: assets/images/code-cayman-thesis.jpg
 ---
