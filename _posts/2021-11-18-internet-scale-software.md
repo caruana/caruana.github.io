@@ -6,7 +6,7 @@ featured: true
 categories: [ Innovation Islands, Internet Scale, Code(Cayman), Cayman Islands ]
 image: assets/images/codecayman-message.jpg
 ---
-> Human-centered design. Meeting people where they are and really taking their needs and feedback into account. When you let people participate in the design process, you find that they often have ingenious ideas about what would really help them. And it’s not a onetime thing; it’s an iterative process.”
+> "Human-centered design. Meeting people where they are and really taking their needs and feedback into account. When you let people participate in the design process, you find that they often have ingenious ideas about what would really help them. And it’s not a onetime thing; it’s an iterative process.”
 >
 > <cite>- -	Melinda Gates, 2013</cite>
 
