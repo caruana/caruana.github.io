@@ -2,7 +2,7 @@
 layout: post
 title:  "How It Started"
 author: brandon
-featured: true
+featured: false
 categories: [ Life, Journey ]
 image: assets/images/bc-how-it-started.jpg
 ---
