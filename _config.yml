@@ -4,7 +4,7 @@ title: "caruana.me"
 description: "A macro perspective on technology, continual learning, cryptographic value creation, AI, cultural trends and the creator economy"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: 
+baseurl: 'https://caruana.me'
 google_analytics: 'UA-113621942-1'
 mailchimp-list: 'https://caruana.us6.list-manage.com/subscribe/post?u=35c7ffdd757b70c1f07ca843d&amp;id=4a7dcd00d9'
 include: ["_pages"]
