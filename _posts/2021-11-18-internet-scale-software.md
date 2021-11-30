@@ -2,7 +2,7 @@
 layout: post
 title:  "Code(Cayman) at Internet Scale"
 author: brandon
-featured: true
+featured: false
 categories: [ Innovation Islands, Internet Scale, Code(Cayman), Cayman Islands ]
 image: assets/images/codecayman-message.jpg
 ---
