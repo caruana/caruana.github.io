@@ -9,10 +9,9 @@ comments: true
 <div class="col-md-8 pr-5">
 
 <p>
-    Short bio in the thrid person:
+    Short bio in the third person:
     <blockquote>
-        "Brandon Caruana is an entrepreuer, software developer and amatuer philantropist. Formerly CTO of an offshore 
-        private bank, currently co-founder of Cartan Group LLC, a Cayman Islands based FinTech executive consulting company and Code(Cayman) a non-profit technology literacy company that provides free introductory programs with follow up support through sponsored massive open online courses.
+        "Brandon Caruana is an entrepreneur, software developer, and amateur philanthropist. Formerly CTO of an offshore private bank, currently co-founder of Cartan Group LLC, a Cayman Islands based FinTech executive consulting company, and Code(Cayman), a non-profit technology literacy company that provides free introductory programs with follow-up support through sponsored massive open online courses.
         <br /><br />
         His expertise has been recognized by governments and regulators and provides guidance, best practices and draft legislation in the virtual assets industry. He most recently developed a proprietary virtal asset custody solution and has been recognized as a driving force for corporate innovation."
     </blockquote>
